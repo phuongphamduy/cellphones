@@ -1,6 +1,6 @@
 
 .background-image {
-    background: url(/image/background.png) no-repeat center;
+    background: url(../image/background.png) no-repeat center;
     background-repeat: repeat-y;
     min-height: 100vh;
 }
