@@ -1,0 +1,247 @@
+
+.background-image {
+    background: url(/image/background.png) no-repeat center;
+    background-repeat: repeat-y;
+    min-height: 100vh;
+}
+
+header {
+    height: 64px;
+    background-color: #d70018;
+}
+
+.cellphone-header {
+    height: 64px;
+}
+
+.cellphone-navbar {   
+    width: 100%;
+    height: 100%;
+}
+
+.cellphone-navbar-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* sublist css */
+
+.list-group-item {
+    position: relative;
+}
+
+.sublist-group-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.sublist-group {
+
+}
+
+.sublist-item {
+
+}
+
+/* sublist css */
+
+
+/* product css */
+
+.product-card {
+    color: black;
+}
+
+.product-card:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.product-discount {
+    background-color: #d70018;
+    height: 27px;
+    color: white;
+}
+
+.product-sale-tet {
+    height: 27px;
+    right: 0;
+    top: 0;
+}
+
+.product-name {
+    font-size: 16px;
+    height: 40px;
+}
+.product-price {
+    
+}
+
+.product-price-new {
+    color: #d70018;
+    font-weight: 700;
+}
+
+.product-price-old {
+    color: #707070;
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+.product-more-info {
+    font-size: 13px;
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.product-star i {
+    color: #f59e0b;
+}
+
+.product-favorite i {
+    color: #d70018;
+}
+
+.product-control-prev {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    border-radius: 0 100px 100px 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 20%);
+    background-color: black;
+    height: 60px;
+}
+
+.product-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    border-radius: 100px 0 0 100px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 20%);
+    background-color: black;
+    height: 60px;
+}
+
+
+
+/* product css */
+
+/* footer css */
+.footer-insurance-1,
+.footer-insurance {
+    height: 50px;
+    justify-content: space-evenly;
+    background-color: #d70018;
+    align-items: center;
+}
+
+.footer-insurance-1 {
+    background-color: #334168;
+}
+
+.footer-insurance-info {
+    font-size: 12px;
+    flex: 1;
+    color: white;
+}
+
+.footer-insurance-1 {
+    background-color: ;
+}
+
+.footer-insurance-img {
+    height: 15px;
+}
+
+.footer-address {
+    background-color: #f8f8f8;
+}
+
+.footer-address-group-img {
+    justify-content: center;
+}
+
+.footer-address-info {
+    font-size: 10px;
+}
+
+/* footer css */
+.hover:hover {
+    background-color: #f3f4f6;
+    cursor: pointer;
+    color: #d70018;
+}
+
+.active:focus {
+    border-bottom: 2.5px solid #d70018;
+    font-weight: 700;
+}
+
+.w-98 {
+    width: 98%;
+}
+
+.rounded-2 {
+    border-radius: 10px;
+}
+
+.rounded-3 {
+    border-radius: 24px !important;
+}
+
+.round-top-3 {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.round-bottom-3 {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.font-size-3 {
+    font-size: 13px;    
+}
+
+.none {
+    display: none;
+}
+
+.col-2-4 {
+    max-width: 20.000016%;
+    display: flex;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.left-banner {
+    animation: shakebanner 7s ease-in-out infinite;
+}
+
+.right-banner {
+    right: 0;
+    animation: shakebanner 7s ease-in-out infinite;
+}
+
+
+
+@keyframes shakebanner {
+    33% {
+        transform: rotate(5deg);
+    }
+    60% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+
+}

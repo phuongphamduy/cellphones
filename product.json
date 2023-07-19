@@ -1,0 +1,434 @@
+[
+    {
+        "id": 0,
+        "discount": 14,
+        "image": "iphone14.png",
+        "name": "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
+        "newPrice": 30069000,
+        "oldPrice": 34990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (nano-sim và esim)"
+        },
+        "class": ""
+    },
+    {
+        "id": 1,
+        "discount": 8,
+        "image": "reno.png",
+        "name": "OPPO Reno8",
+        "newPrice": 8290000,
+        "oldPrice": 8990000,
+        "thuocTinh": {
+            "manHinh": "6.4 inches",
+            "CNmanHinh": "AMOLED",
+            "cameraSau": "Camera chính: 64MP, f/1.7 Camera Marco: 2MP, f/3.3 Bokeh: 2MP, f/2.4",
+            "cameraTruoc": "32MP, f/2.4",
+            "chipSet": "Qualcomm Snapdragon 680",
+            "boNhoTrong": "256 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-sm"
+    },
+    {
+        "id": 2,
+        "discount": 19,
+        "image": "iphone13.png",
+        "name": "iPhone 14 128GB | Chính hãng VN/A",
+        "newPrice": 20190000,
+        "oldPrice": 24990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-md"
+    },
+    {
+        "id": 3,
+        "discount": 7,
+        "image": "vivo.png",
+        "name": "Vivo T1X",
+        "newPrice": 4190000,
+        "oldPrice": 4990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-lg"
+    },
+    {
+        "id": 4,
+        "discount": 16,
+        "image": "samsunggalaxy.png",
+        "name": "Samsung Galaxy Z Fold4",
+        "newPrice": 34290000,
+        "oldPrice": 40990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": ""
+    },
+    {
+        "id": 5,
+        "discount": 28,
+        "image": "iphone11.png",
+        "name": "iPhone11 64GB | Chính hãng VN/A",
+        "newPrice": 10750000,
+        "oldPrice": 14990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-sm"
+    },
+    {
+        "id": 6,
+        "discount": 35,
+        "image": "samsungpink.png",
+        "name": "Samsung Galaxy S22 (8GB - 128GB)",
+        "newPrice": 14350000,
+        "oldPrice": 21990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-md"
+    },
+    {
+        "id": 7,
+        "discount": 16,
+        "image": "iphone13promax.png",
+        "name": "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
+        "newPrice": 30690000,
+        "oldPrice": 34990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-lg"
+    },
+    {
+        "id": 8,
+        "discount": 12,
+        "image": "iphone13.png",
+        "name": "iPhone13 128GB | Chính hãng VN/A",
+        "newPrice": 18290000,
+        "oldPrice": 24990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": ""
+    },
+    {
+        "id": 9,
+        "discount": 8,
+        "image": "reno.png",
+        "name": "OPPO Reno8",
+        "newPrice": 8290000,
+        "oldPrice": 8990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-sm"
+    },
+    {
+        "id": 10,
+        "discount": 11,
+        "image": "iphone14.png",
+        "name": "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
+        "newPrice": 30690000,
+        "oldPrice": 34990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-md"
+    },
+    {
+        "id": 11,
+        "discount": 28,
+        "image": "iphone11.png",
+        "name": "iPhone11 64GB | Chính hãng VN/A",
+        "newPrice": 10750000,
+        "oldPrice": 14990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-lg"
+    },
+    {
+        "id": 12,
+        "discount": 17,
+        "image": "applem1.png",
+        "name": "Macbook Pro 14 inch 2021 | Chính hãng Apple Việt Nam",
+        "newPrice": 43990000,
+        "oldPrice": 52990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": ""
+    },
+    {
+        "id": 13,
+        "discount": 21,
+        "image": "asus.png",
+        "name": "Laptop Asus Gaming Ros Strix G15 G513IH HNO15W",
+        "newPrice": 188900000,
+        "oldPrice": 23990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-sm"
+    },
+    {
+        "id": 14,
+        "discount": 12,
+        "image": "lenovo1.png",
+        "name": "Laptop Lenovo ideapad 3 14ITL6",
+        "newPrice": 15490000,
+        "oldPrice": 17690000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-md"
+    },
+    {
+        "id": 15,
+        "discount": 42,
+        "image": "laptopgigabyte1.png",
+        "name": "Laptop Gigabyte U4 UD-50VN823SQ",
+        "newPrice": 14690000,
+        "oldPrice": 25490000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-lg"
+    },
+    {
+        "id": 16,
+        "discount": 34,
+        "image": "msimodern.png",
+        "name": "Laptop MSI Modern 14 B11MOU 1030VN",
+        "newPrice": 9900000,
+        "oldPrice": 14990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": ""
+    },
+    {
+        "id": 17,
+        "discount": 18,
+        "image": "assunitro5.png",
+        "name": "Laptop Gaming Acer Nitro 5 Eagle AN515-57-54MV",
+        "newPrice": 21690000,
+        "oldPrice": 26490000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-sm"
+    },
+    {
+        "id": 18,
+        "discount": 31,
+        "image": "msibarvo.png",
+        "name": "Laptop Gaming MSI Bravo 15 B5DD 276VN",
+        "newPrice": 15490000,
+        "oldPrice": 22490000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-md"
+    },
+    {
+        "id": 19,
+        "discount": 14,
+        "image": "asusvivobook.png",
+        "name": "Laptop Asus Vivobook OLED 15X A1503ZA-L1151W",
+        "newPrice": 14690000,
+        "oldPrice": 16990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-lg"
+    },
+    {
+        "id": 20,
+        "discount": 14,
+        "image": "asus2.png",
+        "name": "Laptop ASUS Flip BR1100FKA-BP1135W",
+        "newPrice": 5690000,
+        "oldPrice": 6990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": ""
+    },
+    {
+        "id": 21,
+        "discount": 31,
+        "image": "msibarvo.png",
+        "name": "Laptop Gaming MSI Bravo 15 B5DD 276VN",
+        "newPrice": 15490000,
+        "oldPrice": 22490000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-sm"
+    },
+    {
+        "id": 22,
+        "discount": 34,
+        "image": "msimodern.png",
+        "name": "Laptop MSI Modern 14 B11MOU 1030VN",
+        "newPrice": 9900000,
+        "oldPrice": 14990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-md"
+    },
+    {
+        "id": 23,
+        "discount": 21,
+        "image": "asus.png",
+        "name": "Laptop Asus Gaming Ros Strix G15 G513IH HNO15W",
+        "newPrice": 188900000,
+        "oldPrice": 23990000,
+        "thuocTinh": {
+            "manHinh": "6.7 inches",
+            "CNmanHinh": "Super Retina XDR OLED",
+            "cameraSau": "Camera chính: 48 MP, f/1.8, 24mm, OIS Camera góc siêu rộng: 12 MP, f/2.2, 13mm, 120˚ Camera tele: 12 MP, f/2.8, 77mm, OIS, 3x optical zoom Cảm biến độ sâu TOF 3D LidAR",
+            "cameraTruoc": "Camera selfie: 12 MP, f/1.9, 23mm, PDAF",
+            "chipSet": "Apple A16 Bionic 6 nhân",
+            "boNhoTrong": "128 GB",
+            "sim": "2 sim (Nano-sim)"
+        },
+        "class": "none show-lg"
+    }
+]

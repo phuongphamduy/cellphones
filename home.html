@@ -1,0 +1,1711 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <script src="./angular-1.8.2/angular.min.js"></script>
+</head>
+<body>
+  <content class="position-relative">
+    <div class="position-relative none show-xl">
+      <img src="./image/right-banner.png" alt="" class="position-fixed w-200px left-banner">
+      <img src="./image/left-banner.png" alt="" class="position-fixed w-200px right-banner">
+    </div>
+
+    <div class="container-lg bg-white">
+      <div class="row pt-3">
+        <div class="col-lg-2 col-md-3 px-2 none show-md">
+          <div class="list-group shadow-lg rounded-3 mr-2">
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 rounded-top-3 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-phone"></i>
+                Điện thoại
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-laptop"></i>
+                Laptop
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-tablet"></i>
+                Máy tính bảng
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-earbuds"></i>
+                Âm thanh
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-watch"></i>
+                Đồng hồ
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-house"></i>
+                Nhà thông minh
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-phone"></i>
+                Phụ kiện
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-pc"></i>
+                PC - Màn hình
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-pc-display-horizontal"></i>
+                Tivi
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-phone-vibrate"></i>
+                Thu cũ
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-1 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-phone"></i>
+                Hàng cũ
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#"
+              class="list-group-item list-group-item-action border-0 d-flex justify-content-between align-items-center p-0 pl-2 pt-2 pb-2 font-weight-bold font-size-3">
+              <span>
+                <i class="bi bi-megaphone"></i>
+                Khuyễn mãi
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-9 px-2 bg-gray">
+          <div id="carouselExampleIndicators" class="carousel slide h-100" data-ride="carousel">
+            <ol class="carousel-indicators none-sm">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" ng-controller="ctrlSlider">
+              <div class="carousel-item {{x.class}}" ng-repeat="x in images">
+                <img class="d-block w-100" src="./image/{{x.image}}" alt="First slide">
+              </div>
+              <!-- <div class="carousel-item">
+                <img class="d-block w-100" src="./image/iphone14.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./image/tvxiaomi.png" alt="Third slide">
+              </div> -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" style="bottom: 24%;" role="button"
+              data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" style="bottom: 24%;" role="button"
+              data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+            <div class="card-group shadow-sm none show-flex-sm">
+              <div class="card hover border-0" data-target="#carouselExampleIndicators" data-slide-to="0">
+                <div class="card-body d-flex">
+                  <h7 class="card-title small text-center m-auto">GALAXY Z FOLD4 <br> Gia đình sum
+                    họp</h5>
+
+                </div>
+              </div>
+              <div class="card hover border-0" data-target="#carouselExampleIndicators" data-slide-to="1">
+                <div class="card-body d-flex ">
+                  <h7 class="card-title small text-center m-auto">IPHONE14 PRO MAX <br> Giá tốt
+                    chốt ngay</h5>
+
+                </div>
+              </div>
+              <div class="card hover border-0" data-target="#carouselExampleIndicators" data-slide-to="2">
+                <div class="card-body d-flex">
+                  <h7 class="card-title small text-center m-auto">XIAOMI P1 55" <br> Gia đình sum
+                    họp</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 px-2 bg-black none show-lg ">
+          <ul class="list-group h-100 justify-content-spacebetween-lg">
+            <li class="list-group-item p-0 mb-2">
+              <img src="./image/ong-ba-right.png" class="w-100" alt="">
+            </li>
+            <li class="list-group-item p-0 mb-2">
+              <img src="./image/ong-ba-right.png" class="w-100" alt="">
+            </li>
+            <li class="list-group-item p-0">
+              <img src="./image/ong-ba-right.png" class="w-100" alt="">
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="row mt-3 d-flex">
+        <img src="./image/banner.png" class="img-fluid rounded-2 w-98 m-auto" alt="Responsive image">
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-3 d-flex">
+          <h3 class="">Điện thoại nổi bật</h2>
+        </div>
+        <div class="col-lg-9">
+          <ul class="nav justify-content-end nav-pills">
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2" style="background-color: #f3f4f6; color: #444;"
+                href="#">Apple</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2" style="background-color: #f3f4f6; color: #444;"
+                href="#">SamSung</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Xiaomi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Oppo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Vivo</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">realme</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Nokia</a>
+            </li>
+            <li class="nav-item-sm">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Asus</a>
+            </li>
+            <li class="nav-item-sm">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Techno</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Xem tất cả</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div id="carouselExampleControls" class="carousel slider w-100" data-ride="carousel">
+          <div class="carousel-inner" ng-controller="ctrlDienThoai">
+            <div class="carousel-item active">
+              <div class="row mt-3 w-100 mx-auto">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 px-2 {{x.class}}" ng-repeat="x in firstSlide">
+                  <a href="#!product/{{x.id}}" class="card shadow position-relative product-card" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm {{x.discount}}%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/{{x.image}}" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">{{x.name}}</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">{{x.newPrice | number}}đ</span>
+                        <span class="card-text product-price-old ml-2">{{x.oldPrice | number}}đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 px-2 none show-sm">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 8%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/reno.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">OPPO Reno8</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">8.290.000đ</span>
+                        <span class="card-text product-price-old ml-2">8.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 px-2 none show-md">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 19%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/iphone13.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">iPhone 14 128GB | Chính hãng VN/A</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">20.190.000đ</span>
+                        <span class="card-text product-price-old ml-2">24.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 none show-lg px-2"> 
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 7%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/vivo.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Vivo T1X</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">4.190.000đ</span>
+                        <span class="card-text product-price-old ml-2">4.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row mt-3 w-100 mx-auto">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 px-2 {{x.class}}" ng-repeat="x in secondSlide">
+                  <a href="#!product/{{x.id}}" class="card shadow position-relative product-card" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm {{x.discount}}%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/{{x.image}}" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">{{x.name}}</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">{{x.newPrice | number}}đ</span>
+                        <span class="card-text product-price-old ml-2">{{x.oldPrice | number}}đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 px-2 none show-sm">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 28%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/iphone11.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">iPhone11 64GB | Chính hãng VN/A</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">10.750.000đ</span>
+                        <span class="card-text product-price-old ml-2">14.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 px-2 none show-md">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 35%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/samsungpink.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Samsung Galaxy S22 (8GB - 128GB)</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">14.350.000đ</span>
+                        <span class="card-text product-price-old ml-2">21.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 none show-lg px-2">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 16%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/iphone13promax.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">iPhone 14 Pro Max 128GB | Chính hãng VN/A</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">30.690.000đ</span>
+                        <span class="card-text product-price-old ml-2">34.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row mt-3 w-100 mx-auto">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 px-2 {{x.class}}" ng-repeat="x in thirdSlide">
+                  <a href="#!product/{{x.id}}" class="card shadow position-relative product-card" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm {{x.discount}}%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/{{x.image}}" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">{{x.name}}</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">{{x.newPrice | number}}đ</span>
+                        <span class="card-text product-price-old ml-2">{{x.oldPrice | number}}đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 px-2 none show-sm">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 28%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/iphone11.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">iPhone11 64GB | Chính hãng VN/A</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">10.750.000đ</span>
+                        <span class="card-text product-price-old ml-2">14.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 px-2 none show-md">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 8%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/reno.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">OPPO Reno8</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">8.290.000đ</span>
+                        <span class="card-text product-price-old ml-2">8.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 none show-lg px-2">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 11%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/iphone14.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">iPhone 14 Pro Max 128GB | Chính hãng VN/A</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">30.690.000đ</span>
+                        <span class="card-text product-price-old ml-2">34.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev product-control-prev" href="#carouselExampleControls" role="button"
+            data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next product-control-next" href="#carouselExampleControls" role="button"
+            data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+      </div>
+      <div class="row mt-3 w-100 mx-auto" ng-controller="ctrlDienThoai">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 px-2 {{x.class}}" ng-repeat="x in sanphamArray | limitTo : limitNumber | orderBy : 'newPrice' : dau">
+          <a href="#!product/{{x.id}}" class="card shadow position-relative product-card" style="width: 100%;">
+            <div class="product-discount position-absolute">
+              Giảm {{x.discount}}%
+            </div>
+            <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+            <img class="card-img-top p-3" src="./image/product/{{x.image}}" alt="Card image cap">
+            <div class="card-body pt-0 pb-2">
+              <h5 class="card-title product-name">{{x.name}}</h5>
+              <div class="product-price d-flex">
+                <span class="card-text product-price-new">{{x.newPrice | number}}đ</span>
+                <span class="card-text product-price-old ml-2">{{x.oldPrice | number}}đ</spa>
+              </div>
+              <div class="product-more-info rounded p-2 mt-2">
+                Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+              </div>
+              <div class="product-star d-flex mt-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                <span>Yêu thích</span>
+                <i class="bi bi-heart-fill"></i>
+              </div>
+            </div>
+          </a>
+          </div>
+        <!-- <div class="col-lg-3 col-md-4 col-sm-6 px-2 none show-sm">
+          <div class="card shadow position-relative" style="width: 100%;">
+            <div class="product-discount position-absolute">
+              Giảm 8%
+            </div>
+            <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+            <img class="card-img-top p-3" src="./image/product/reno.png" alt="Card image cap">
+            <div class="card-body pt-0 pb-2">
+              <h5 class="card-title product-name">OPPO Reno8</h5>
+              <div class="product-price d-flex">
+                <span class="card-text product-price-new">8.290.000đ</span>
+                <span class="card-text product-price-old ml-2">8.990.000đ</spa>
+              </div>
+              <div class="product-more-info rounded p-2 mt-2">
+                Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+              </div>
+              <div class="product-star d-flex mt-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                <span>Yêu thích</span>
+                <i class="bi bi-heart-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 px-2 none show-md">
+          <div class="card shadow position-relative" style="width: 100%;">
+            <div class="product-discount position-absolute">
+              Giảm 19%
+            </div>
+            <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+            <img class="card-img-top p-3" src="./image/product/iphone13.png" alt="Card image cap">
+            <div class="card-body pt-0 pb-2">
+              <h5 class="card-title product-name">iPhone 14 128GB | Chính hãng VN/A</h5>
+              <div class="product-price d-flex">
+                <span class="card-text product-price-new">20.190.000đ</span>
+                <span class="card-text product-price-old ml-2">24.990.000đ</spa>
+              </div>
+              <div class="product-more-info rounded p-2 mt-2">
+                Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+              </div>
+              <div class="product-star d-flex mt-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                <span>Yêu thích</span>
+                <i class="bi bi-heart-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 none show-lg px-2"> 
+          <div class="card shadow position-relative" style="width: 100%;">
+            <div class="product-discount position-absolute">
+              Giảm 7%
+            </div>
+            <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+            <img class="card-img-top p-3" src="./image/product/vivo.png" alt="Card image cap">
+            <div class="card-body pt-0 pb-2">
+              <h5 class="card-title product-name">Vivo T1X</h5>
+              <div class="product-price d-flex">
+                <span class="card-text product-price-new">4.190.000đ</span>
+                <span class="card-text product-price-old ml-2">4.990.000đ</spa>
+              </div>
+              <div class="product-more-info rounded p-2 mt-2">
+                Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+              </div>
+              <div class="product-star d-flex mt-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                <span>Yêu thích</span>
+                <i class="bi bi-heart-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="row">
+        <button class="btn btn-primary" ng-click="xemThem()" ng-if="isMoreProduct">Xem thêm sản phảm</button>
+        <button class="btn btn-primary" ng-click="anBot()" ng-if="!isMoreProduct">Ẩn bớt sản phẩm</button>
+        <button class="btn btn-warning" ng-click="orderTangGia()">Sắp xếp theo giá tăng dần</button>
+        <button class="btn btn-success" ng-click="orderGiamGia()">Sắp xếp theo giá giảm dần</button>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-3 d-flex">
+          <h3 class=" text-left">Laptop</h2>
+        </div>
+        <div class="col-lg-9">
+          <ul class="nav justify-content-end nav-pills">
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2" style="background-color: #f3f4f6; color: #444;"
+                href="#">Macbook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2" style="background-color: #f3f4f6; color: #444;"
+                href="#">Thinkpad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Asus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">HP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Surface</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Acer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">MSI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Dell</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Xem tất cả</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-3">  
+        <div id="carouselExampleControls1" class="carousel slider w-100" data-ride="carousel">
+          <div class="carousel-inner" ng-controller="ctrlLaptop">
+            <div class="carousel-item active">
+              <div class="row mt-3 w-100 mx-auto">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 px-2 {{x.class}}" ng-repeat="x in firstSlide">
+                  <a href="#!product/{{x.id}}" class="card shadow position-relative product-card" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm {{x.discount}}%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/{{x.image}}" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">{{x.name}}</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">{{x.newPrice | number}}đ</span>
+                        <span class="card-text product-price-old ml-2">{{x.oldPrice | number}}đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 px-2 none show-sm">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 21%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/asus.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop Asus Gaming Ros Strix G15 G513IH HNO15W</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">18.8900.000đ</span>
+                        <span class="card-text product-price-old ml-2">23.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 px-2 none show-md">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 12%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/lenovo1.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop Lenovo Ideapad 3 14ITL6</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">15.490.000đ</span>
+                        <span class="card-text product-price-old ml-2">17.690.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 none show-lg px-2">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 42%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/laptopgigabyte1.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop Gigabyte U4 UD-50VN823SQ</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">14.690.000đ</span>
+                        <span class="card-text product-price-old ml-2">25.490.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row mt-3 w-100 mx-auto">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 px-2 {{x.class}}" ng-repeat="x in secondSlide">
+                  <a href="#!product/{{x.id}}" class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm {{x.discount}}%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/{{x.image}}" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">{{x.name}}</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">{{x.newPrice | number}}đ</span>
+                        <span class="card-text product-price-old ml-2">{{x.oldPrice | number}}đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 px-2 none show-sm">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 18%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/assunitro5.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop Gaming Acer Nitro 5 Eagle AN515-57-54MV</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">21.690.000đ</span>
+                        <span class="card-text product-price-old ml-2">26.490.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 px-2 none show-md">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 31%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/msibarvo.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop Gaming MSI Bravo 15 B5DD 276VN</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">15.490.000đ</span>
+                        <span class="card-text product-price-old ml-2">22.490.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 none show-lg px-2">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 14%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/asusvivobook.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop Asus Vivobook OLED 15X A1503ZA-L1151W</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">14.690.000đ</span>
+                        <span class="card-text product-price-old ml-2">16.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row mt-3 w-100 mx-auto">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 px-2 {{x.class}}" ng-repeat="x in thirdSlide">
+                  <a href="#!product/{{x.id}}" class="card shadow position-relative product-card" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm {{x.discount}}%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/{{x.image}}" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">{{x.name}}</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">{{x.newPrice | number}}đ</span>
+                        <span class="card-text product-price-old ml-2">{{x.oldPrice | number}}đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 px-2 none show-sm">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 31%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/msibarvo.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop Gaming MSI Bravo 15 B5DD 276VN</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">15.490.000đ</span>
+                        <span class="card-text product-price-old ml-2">22.490.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 px-2 none show-md">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 34%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/msimodern.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop MSI Modern 14 B11MOU 1030VN</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">9.900.000đ</span>
+                        <span class="card-text product-price-old ml-2">14.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 none show-lg px-2">
+                  <div class="card shadow position-relative" style="width: 100%;">
+                    <div class="product-discount position-absolute">
+                      Giảm 21%
+                    </div>
+                    <img src="./image/SaleTet.png" alt="" class="position-absolute product-sale-tet">
+                    <img class="card-img-top p-3" src="./image/product/asus.png" alt="Card image cap">
+                    <div class="card-body pt-0 pb-2">
+                      <h5 class="card-title product-name">Laptop Asus Gaming Ros Strix G15 G513IH HNO15W</h5>
+                      <div class="product-price d-flex">
+                        <span class="card-text product-price-new">18.8900.000đ</span>
+                        <span class="card-text product-price-old ml-2">23.990.000đ</spa>
+                      </div>
+                      <div class="product-more-info rounded p-2 mt-2">
+                        Giảm thêm đến 2 triệu khi thanh toán qua Moca, JCB, OCB,...
+                      </div>
+                      <div class="product-star d-flex mt-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="product-favorite mt-2 d-flex align-items-center justify-content-end">
+                        <span>Yêu thích</span>
+                        <i class="bi bi-heart-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev product-control-prev" href="#carouselExampleControls1" role="button"
+            data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next product-control-next" href="#carouselExampleControls1" role="button"
+            data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+      </div>
+      <div class="row mt-3">
+        <div class="col-7 col-sm-3 d-flex">
+          <h3 class=" text-left text-uppercase" style="font-size: 20px;">Phụ kiện</h2>
+        </div>
+        <div class="col-5 col-sm-9">
+          <ul class="nav justify-content-end nav-pills">
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Xem tất cả</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-3 none show-flex-md" ng-controller="ctrlPhuKien1">
+        <div class="col px-1" ng-repeat="x in phuKien">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img img-fluid" src="./image/phukien/{{x.image}}" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">{{x.title}}</h5>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/apple.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Apple Care</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/balo.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Balo, túi chống sốc</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/camera.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Camera an ninh</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/camerahanhtrinh.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Camera hành trình</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/capsac.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Cáp, sạc</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/chuot.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Chuột, bàn phím</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/danmanhinh.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Dán màn hình</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/daydeodongho.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Dây đeo đồng hồ</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/gaminggear.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Gaming gear</h5>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="row mt-1 none show-flex-md" ng-controller="ctrlPhuKien2">
+        <div class="col px-1" ng-repeat="x in phuKien">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/{{x.image}}" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">{{x.title}}</h5>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/oplung.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Ốp lưng-bao da</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/phukienapple.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Phụ kiện Apple</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/phukienlaptop.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Phụ kiện Laptop</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/pinduphong.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Pin dự phòng</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/quatmini.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Quạt Mini</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/sim.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Sim 4g đẹp</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/taycam.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Tay cầm chống rung</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/thenho.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Thẻ nhớ, USB</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/thietbimang.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Thiết bị mạng</h5>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="row mt-3 none-md">
+        <div class="col-sm-12 px-1">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row" ng-controller="ctrlPhuKien3">
+                  <div class="col px-1 {{x.class}}" ng-repeat="x in phuKien">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/{{x.image}}" style="height: 111px;" alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">{{x.title}}</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col px-1">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/apple.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Apple</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col px-1">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/balo.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Balo, túi chống sốc</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col px-1">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/capsac.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Cáp, sạc</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col px-1">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/chuot.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Chuột, bàn phím</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col px-1 pr-3">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/danmanhinh.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Dán màn hình</h5>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row" ng-controller="ctrlPhuKien4">
+                  <div class="col px-1 {{x.class}}" ng-repeat="x in phuKien">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/{{x.image}}" style="height: 111px;" alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">{{x.title}}</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col px-1">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/gaminggear.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Gaming gear</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col px-1">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/ocung.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Ổ cứng di động</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col px-1">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/phukienapple.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Phụ kiện Apple</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col px-1">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/phukienlaptop.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Phụ kiện Laptop</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col px-1 pr-3">
+                    <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+                      <img class="card-img" src="./image/phukien/camera.png" style="height: 111px;"
+                        alt="Card image">
+                      <div class="card-img-overlay p-0">
+                        <h5 class="card-title" style="font-size: 15px;">Camera an ninh</h5>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-7 col-sm-3 d-flex">
+          <h3 class=" text-left text-uppercase" style="font-size: 20px;">Linh kiện máy tính</h2>
+        </div>
+        <div class="col-5 col-sm-9">
+          <ul class="nav justify-content-end nav-pills">
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Xem tất cả</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-1" ng-controller="ctrlLinhKien">
+        <div class="col px-1 {{x.class}}" ng-repeat="x in linhKien">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/{{x.image}}" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">{{x.title}}</h5>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/cpu.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">CPU</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/lapsan.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">PC lắp sẵn</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/mainboard.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Mainboard</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/psu.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Nguồn máy tính</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/ram.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">RAM</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1 none show-md">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/ssd.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Ổ cứng</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1 none show-md">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/tannhat.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Tản nhiệt</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1 none show-md">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/maytinh/vga.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">VGA</h5>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="row mt-3">
+        <div class="col-7 col-sm-3 d-flex">
+          <h3 class=" text-left text-uppercase" style="font-size: 20px;">Hàng cũ</h2>
+        </div>
+        <div class="col-5 col-sm-9">
+          <ul class="nav justify-content-end nav-pills">
+            <li class="nav-item">
+              <a class="nav-link font-size-3 rounded-3 mr-2  " style="background-color: #f3f4f6; color: #444;"
+                href="#">Xem tất cả</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-1" ng-controller="ctrlHangCu">
+        <div class="col px-1 {{x.class}}" ng-repeat="x in hangCu">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/{{x.image}}" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">{{x.title}}</h5>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/ipad.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Máy tính bảng cũ</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/iphone.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Điện thoại cũ</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/lap.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Laptop cũ</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/loa.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Loa, tai nghe</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/mac.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Mac cũ</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1 none show-md">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/mahinh.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Màn hình cũ</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1 none show-md">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/nha.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Nhà thông minh cũ</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col px-1 none show-md">
+          <div class="card text-white" style="background-color: rgb(242, 131, 118);">
+            <img class="card-img" src="./image/phukien/cu/phukien.png" style="height: 111px;" alt="Card image">
+            <div class="card-img-overlay p-0">
+              <h5 class="card-title" style="font-size: 15px;">Phụ kiện cũ</h5>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="row mt-3">
+        <div class="col-12 d-flex">
+          <h3 class=" text-left text-uppercase" style="font-size: 20px;">Ưu đãi thanh toán</h2>
+        </div>
+      </div>
+      <div class="row mt-1">
+        <div class="col-lg-3 col-6 px-1">
+          <img src="./image/thanhtoan/jcb.png" class="img-fluid rounded-lg " alt="">
+        </div>
+        <div class="col-lg-3 col-6 px-1">
+          <img src="./image/thanhtoan/scb.png" class="img-fluid rounded-lg" alt="">
+        </div>
+        <div class="col-lg-3 col-6 px-1 mt-xm-2 mt-sm-2 mt-lg-0">
+          <img src="./image/thanhtoan/homecredit.png" class="img-fluid rounded-lg " alt="">
+        </div>
+        <div class="col-lg-3 col-6 px-1 mt-xm-2 mt-sm-2 mt-lg-0">
+          <img src="./image/thanhtoan/vpback.png" class="img-fluid rounded-lg" alt="">
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12">
+          <h3 class=" text-left text-uppercase" style="font-size: 20px;">chuyên trang thương hiệu</h2>
+        </div>
+      </div>
+      <div class="row mt-1 pb-3">
+        <div class="col-lg-3 col-6 px-1">
+          <img src="./image/thuonghieu/apple.png" class="img-fluid rounded-lg " alt="">
+        </div>
+        <div class="col-lg-3 col-6 px-1">
+          <img src="./image/thuonghieu/asus.png" class="img-fluid rounded-lg" alt="">
+        </div>
+        <div class="col-lg-3 col-6 px-1 mt-lg-0 mt-xm-2 mt-sm-2">
+          <img src="./image/thuonghieu/samsumg.png" class="img-fluid rounded-lg " alt="">
+        </div>
+        <div class="col-lg-3 col-6 px-1 mt-lg-0 mt-xm-2 mt-sm-2">
+          <img src="./image/thuonghieu/xiaomi.png" class="img-fluid rounded-lg" alt="">
+        </div>
+      </div>
+    </div>
+  </content>
+</body>
+</html>

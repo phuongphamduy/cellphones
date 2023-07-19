@@ -1,0 +1,136 @@
+
+
+.title h5 {
+    display: inline-block;
+    margin: 0; 
+}
+.product-star {
+    color: yellow;
+    display: inline-block;
+    font-size: 16px;
+}
+.rates {
+    opacity: .8;
+}
+
+.product {  
+    color: white;
+    background-image: linear-gradient( 90deg ,#dd5e89, #f7bb97);
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.product i {
+    position: absolute;
+    left: 10;
+    top: 10;
+    color: red;
+}
+
+.product-img-wrap {
+    text-align: center;
+}
+
+.product-img {
+    width: 50%;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.productDetail {
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 0 10px #ccc ;
+}
+
+.productDetail-title {
+    color: #444;
+}
+
+.productDetail-list {
+    
+}
+
+.productDetail-item {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.productDetail-price {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.new-price {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.old-price {
+    color: #444;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.btn-buy {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 5px;
+}
+
+.btn-buy span {
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.btn-other {
+    background-color: #277cea;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.btn-add {
+    background-color: #dd5e89;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product-discount-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-discount-title-wrap {
+    border: 1px solid #e5e7eb;
+    padding: 5px 5px;
+    color: #444;
+}
+
+.product-discount-item {
+    font-size: 14px;
+    margin: 4px 0;
+}

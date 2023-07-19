@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container bg-white" style="min-height: 100vh;">
+        <div class="row align-items-center mb-4">
+            <div class="title">
+                <h5>{{sanpham.name}}</h5>
+
+            </div>
+            <div class="product-star d-flex pl-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+            <span class="rates">8 đánh giá</span>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="product">
+                    <i class="bi bi-heart product-icon-heart"></i>
+                    <div class="product-img-wrap">
+                        <h5 class="product-name">TÍNH NĂNG NỔI BẬT</h5>
+                        <img src="./image/product/{{sanpham.image}}" alt="" class="product-img">
+                    </div>
+                    <ul class="product-detail-list">
+                        <li class="product-detail-item">Hiệu năng mượt mà, ổn định</li>
+                        <li class="product-detail-item">Camera xịn xò bắt trọn khung hình</li>
+                        <li class="product-detail-item">Yên tâm sử dụng kháng nước, kháng bụi</li>
+                        <li class="product-detail-item">Có nhiều màu sắc phù hợp với cá tính</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="productDetail">
+                    <h5 class="productDetail-title">Thông tin sản phẩm</h5>
+                    <ul class="productDetail-list">
+                        <li class="productDetail-item">Máy mới chính hãng 100% không trầy xước bong tróc bảo hành chính
+                            hãng đầy đủ</li>
+                        <li class="productDetail-item">Thân máy ốp lưng và cục sạc nhanh 32W</li>
+                        <li class="productDetail-item">1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất.Bảo hàng
+                            chính hãng trong vòng 12 tháng</li>
+                    </ul>
+                    <div class="productDetail-price">
+                        <span class="new-price">{{sanpham.newPrice | number}}đ</span>
+                        <span class="old-price">{{sanpham.oldPrice | number}}đ</span>
+                    </div>
+                    <button class="btn-buy">Sắp về hàng <br> <span>(Vui lòng liên hệ trực tiếp)</span></button>
+                    <button class="btn-other">Xem thêm sản phẩm khác</button>
+                    <button class="btn-add" ng-click="increaseQuantity()">Thêm sản phẩm vào giỏ hàng</button>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-discount-title-wrap">
+                    <h5 class="product-discount-title">ƯU ĐÃI THÊM</h5>
+                    <ul class="product-discount-list">
+                        <li class="product-discount-item">
+                            Giảm thêm tới 1% cho thành viên Smember (áp dụng tùy sản phẩm)
+                        </li>
+                        <li class="product-discount-item">
+                            Bảo vệ sản phẩm toàn diện với dịch vụ bảo hành mở rộng
+                        </li>
+                        <li class="product-discount-item">
+                            Giảm thêm 5% tối đa 500.000đ khi thanh toán qua Kredivo
+                        </li>
+                        <li class="product-discount-item">
+                            Giảm thêm 600.000đ qua thẻ tín dụng JCB cho đơn hàng từ 10.000.000đ
+                        </li>
+                        <li class="product-discount-item">
+                            Giảm thêm 4% (tối đa 250.000đ) qua ví Moca cho đơn hàng từ 500.000đ
+                        </li>
+                        <li class="product-discount-item">
+                            Giảm thêm 500.000đ khi thanh toán qua thẻ tín dụng Home Credit cho đơn hàng từ 8 triệu
+                        </li>
+                        <li class="product-discount-item">
+                            Giảm thêm tới 300k cho đơn hàng từ 5 triệu khi thanh toán qua VNPAY
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h5>Thông số kĩ thuật</h5>
+            <table class="table table-striped">
+                <tr>
+                    <td>Kích thước màn hình:</td>
+                    <td>{{sanpham.thuocTinh.manHinh}}</td>
+                </tr>
+                <tr>
+                    <td>Công nghệ màn hình: </td>
+                    <td>{{sanpham.thuocTinh.CNManHinh}}</td>
+
+
+                </tr>
+                <tr>
+                    <td>Camera Sau: </td>
+                    <td>{{sanpham.thuocTinh.cameraSau}}</td>
+
+
+                </tr>
+                <tr>
+                    <td>Camera Trước: </td>
+                    <td>{{sanpham.thuocTinh.cameraTruoc}}</td>
+
+
+                </tr>
+                <tr>
+                    <td>Bộ nhớ trong: </td>
+                    <td>{{sanpham.thuocTinh.boNhoTrong}}</td>
+
+
+                </tr>
+                <tr>
+                    <td>Thẻ sim: </td>
+                    <td>{{sanpham.thuocTinh.sim}}</td>
+
+
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

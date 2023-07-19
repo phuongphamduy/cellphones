@@ -1,0 +1,255 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <script src="./angular-1.8.2/angular.min.js"></script>
+  <script src="./angular-1.8.2/angular-route.js"></script>
+  <link rel="stylesheet" href="./product.css">
+</head>
+
+<body ng-app="myapp" ng-controller="mainCtrl">
+  <header class="cellphone-header">
+    <div class="container-lg cellphone-header">
+      <div class="row cellphone-header">
+        <nav class="navbar navbar-expand cellphone-navbar m-0 p-0 d-flex justify-content-between align-items-center">
+          <a class="navbar-brand" href="#">
+            <img src="./image/cellphone-logo.gif" class="none show-lg" style="width: 157px;" alt="">
+            <img src="./image/logocellphone.png" class="none-lg h-100 p-2" alt="">
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto cellphone-navbar-list">
+              <li class="nav-item cellphone-navbar-item none show-md">
+                <a class="nav-link cellphone-navbar-link m-auto d-flex align-items-centerhref=" href="#">
+                  <i class="bi bi-card-list" style="font-size: 25px;"></i>
+                  Danh mục</a>
+              </li>
+              <li class="nav-item dropdown cellphone-navbar-item none show-lg">
+                <a class="nav-link dropdown-toggle cellphone-navbar-link d-flex align-items-center" width="50" href="#"
+                  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div><i class="bi bi-geo-alt-fill" style="font-size: 25px;"></i></div>
+                  Xem giá tại <br>
+                  Hồ Chí Minh
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" style="flex: 1;">
+              <div class="input-group m-auto w-100">
+                <div class="input-group-prepend">
+                  <label class="input-group-text bg-white p-0" style="border: 0" for="inputGroupSelect01">
+                    <button class="btn" data-toggle="modal" data-target="#exampleModal" ng-click="searchSP()"><i
+                        class="bi bi-search"></i></button>
+
+                  </label>
+                </div>
+                <input type="text" class="form-control" placeholder="Bạn cần tìm gì" aria-label=""
+                  aria-describedby="basic-addon1" ng-model="textSearch">
+
+              </div>
+
+
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item cellphone-navbar-item none show-md">
+                <a href="#" class="nav-link cellphone-navbar-link d-flex align-items-center">
+                  <div><i class="bi bi-telephone" style="font-size: 25px;"></i></div>
+                  Gọi mua hàng <br> 1800.2097
+                </a>
+              </li>
+              <li class="nav-item cellphone-navbar-item none show-xl">
+                <a href="#" class="nav-link cellphone-navbar-link d-flex align-items-center">
+                  <div><i class="bi bi-geo-alt-fill" style="font-size: 25px;"></i></div>
+                  Cửa hàng <br> gần bạn
+                </a>
+              </li>
+              <li class="nav-item cellphone-navbar-item none show-xl">
+                <a href="#" class="nav-link cellphone-navbar-link d-flex align-items-center">
+                  <div><i class="bi bi-truck" style="font-size: 25px;"></i></div>
+                  Tra cứu <br> đơn hàng
+                </a>
+              </li>
+              <li class="nav-item cellphone-navbar-item none show-sm" style="position: relative;">
+                <a href="#!cart" class="nav-link cellphone-navbar-link d-flex align-items-center">
+                  <div><i class="bi bi-bag-check" style="font-size: 25px;"></i></div>
+                  Giỏ <br> hàng
+                  <span
+                    style="background-color: white; color: black; border-radius: 10px; position: absolute; bottom: 10px; left: 10px; padding: 2px;">{{quantity}}</span>
+                </a>
+              </li>
+              <li class="nav-item cellphone-navbar-item d-flex">
+                <a href="#" class="nav-link cellphone-navbar-link m-auto text-center">
+                  <i class="bi bi-person-circle" style="font-size: 25px;"></i> <br>
+                  Đăng nhập</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sản phầm tìm thấy</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col" ng-repeat="p in sanphamArray | filter: {name: search}"  >
+              <div class="card m-3" >
+                <div class="card card-primary text-center"></div>
+                <div class="card-header">{{p.name}}</div>
+                <div class="card-body">
+                  <a href="#!product/{{x.id}}"><img width="50px" src="./image/product/{{p.image}}" class="poly-pord"></a>
+                </div>
+                <div class="card-footer">${{p.newPrice | number}}</div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="background-image">
+    <ng-view></ng-view>
+
+  </div>
+
+
+  <footer class="bg-white mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 px-1">
+          <h5 class="mt-2">Tìm cửa hàng</h5>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">
+              Tìm cửa hàng gần nhất
+            </a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">
+              Mua hàng từ xa
+            </a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">
+              Gặp trực tiếp cửa hàng gần nhất(Zalo hoặc gọi điện)
+            </a>
+          </div>
+          <h5 class="mt-2">Phương thức thanh toán</h5>
+          <img src="./image/logo/alepay-logo.png" alt="..." class="img-thumbnail img-fluid p-0">
+          <img src="./image/logo/kredivo-logo.png" alt="..." class="img-thumbnail img-fluid p-0">
+          <img src="./image/logo/moca-logo.png" alt="..." class="img-thumbnail img-fluid p-0">
+          <img src="./image/logo/mpos-logo.png" alt="..." class="img-thumbnail img-fluid p-0">
+          <img src="./image/logo/onepay-logo.png" alt="..." class="img-thumbnail img-fluid p-0">
+          <img src="./image/logo/vnpay-logo.png" alt="..." class="img-thumbnail img-fluid p-0">
+          <img src="./image/logo/zalopay-logo.png" alt="..." class="img-thumbnail img-fluid p-0">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 px-1">
+          <ul class="list-group">
+            <li class="list-group-item border-0 p-1 font-size-3">Gọi mua hàng <a href=""
+                class="text-dark font-weight-bold">1800.2097</a> (7h30 - 22h00)</li>
+            <li class="list-group-item border-0 p-1 font-size-3">Gọi khiếu nại <a href=""
+                class="text-dark font-weight-bold">1800.2063</a> (8h - 21h00)</li>
+            <li class="list-group-item border-0 p-1 font-size-3">Gọi bảo hành <a href=""
+                class="text-dark font-weight-bold">1800.2064</a> (8h - 21h00)</li>
+
+          </ul>
+          <div class="footer-insurance w-100 d-flex p-2 rounded-lg mt-2">
+            <div class="footer-insurance-info">
+              <strong>Đói tác dịch vụ bảo hành</strong>
+              <p class="mb-0">Điện thoại - máy tính</p>
+
+            </div>
+            <img src="./image/footer/footer-1.png" alt="" class="footer-insurance-img img-fluid">
+          </div>
+          <div class="footer-insurance-1 w-100 d-flex p-2 rounded-lg mt-2">
+            <div class="footer-insurance-info">
+              <strong>Trung tâm bảo hành ủy quyền</strong>
+              <p class="mb-0">Apple</p>
+
+            </div>
+            <img src="./image/footer/footer-1.png" alt="" class="footer-insurance-img img-fluid">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 px-1">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Mua hàng và thanh toán
+              online</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Mua hàng trả góp
+              online</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Tra thông tin đơn
+              hàng</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Tra điểm Smember</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Tra thông tin bảo
+              hành</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Tra cứu hóa đơn điện
+              tử</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Trung tâm bảo hành chính
+              hãng</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Quy định về việc sao lưu
+              dữ liệu</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Dịch vụ bảo hành điện
+              thoại</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Dịch vụ bảo hành mở
+              rộng</a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 px-1">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Khách hàng doanh nghiệp
+              (B2B)</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Ưu đãi thanh toán</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Quy chế hoạt động</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Chính sách Bảo hành</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Liên hệ hợp tác kinh
+              doanh</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 p-1 font-size-3">Tuyển dụng</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-address mt-3">
+      <div class="container">
+        <div class="row">
+          <p class="mt-3 footer-address-info text-center">
+            Công ty TNHH Thương Mại và Dịch Vụ Kỹ Thuật DIỆU PHÚC - GPĐKKD: 0316172372 cấp tại Sở KH & ĐT TP. HCM.
+            Địa chỉ văn phòng: 350-352 Võ Văn Kiệt, Phường Cô Giang, Quận 1, Thành phố Hồ Chí Minh, Việt Nam. Điện
+            thoại: 028.7108.9666.
+          </p>
+        </div>
+        <div class="row footer-address-group-img d-flex align-items-center">
+          <img src="./image/footer/logoSaleNoti.png" style="height: 30px;" alt="">
+          <img src="./image/footer/dmca_copyright_protected150c.png" style="height: 30px;" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./mainjs.js"></script>
+</body>
+
+</html>
